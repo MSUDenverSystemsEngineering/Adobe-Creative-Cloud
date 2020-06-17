@@ -160,7 +160,6 @@ Try {
             Write-Log "No restart of explorer needed"
         }
 
-		Execute-Process -Path "$envCommonProgramFilesX86\Adobe\OOBE_Enterprise\RemoteUpdateManager\RemoteUpdateManager.exe" -WindowStyle "Hidden" -PassThru -IgnoreExitCodes '1'
 
 		## Display a message at the end of the install
 		If (-not $useDefaultMsi) {
